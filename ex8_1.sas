@@ -27,7 +27,7 @@ print x;
 n=6; k=3; alpha=0.05;
 b = inv(x`*x)*x`*y;
 i=i(n);
-j=(n,n,1);
+j=j(n,n,1);
 h=x*inv(x`*x)*x`;
 print n k alpha, b i h;
 
